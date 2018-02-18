@@ -12,7 +12,7 @@ int main () {
 	pwm1.init(1,0x40);
 
   PCA9685 pwm2;
-	pwm2.init(1,0x40);
+	pwm2.init(1,0x50);
 
 	pwm1.setPWMFreq(61);
   pwm2.setPWMFreq(150);
