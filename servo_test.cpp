@@ -15,7 +15,7 @@ int main () {
 	pwm2.init(1,0x40);
 
 	pwm1.setPWMFreq(61);
-  ptm2.setPWMFreq(150);
+  pwm2.setPWMFreq(150);
 	usleep(1000 * 1000);
 
 	int count = 0;
