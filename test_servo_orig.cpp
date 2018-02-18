@@ -20,14 +20,14 @@ int main () {
 	int count = 0;
 	while (count++<10) {
 		;
-		pwm.setPWM(0,0,150);	
+		pwm.setPWM(0,0,150);
 		usleep(1000 * 1000);
-		
+
 		pwm.setPWM(0,0,600);
-		
+
 		usleep(1000 * 1000);
 	}
 	printf ("\n");
-	
+
 	return 0;
-} 
+}
