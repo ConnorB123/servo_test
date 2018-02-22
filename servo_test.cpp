@@ -12,7 +12,7 @@ int main () {
 	pwm1.init(1,0x40);
 
   PCA9685 pwm2;
-	pwm2.init(1,0x50);
+	pwm2.init(2,0x40);
 
 	pwm1.setPWMFreq(61);
   pwm2.setPWMFreq(150);
@@ -32,8 +32,8 @@ int main () {
 
 	}
 
-	pwm1.setPWM(0,0,300);
-	pwm2.setPWM(0,0,300);
+	pwm1.setPWM(0,0,0);
+	pwm2.setPWM(0,0,0);
 	printf ("\n");
 
 	return 0;
