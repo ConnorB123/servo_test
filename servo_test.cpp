@@ -12,7 +12,7 @@ int main () {
 	pwm1.init(1,0x40);
 
   PCA9685 pwm2;
-	pwm2.init(2,0x40);
+	pwm2.init(1,0x40);
 
 	pwm1.setPWMFreq(61);
   pwm2.setPWMFreq(150);
@@ -22,7 +22,7 @@ int main () {
 	while (count++<10) {
 
 		pwm1.setPWM(0,0,150);
-    pwm2.setPWM(0,0,600);
+    pwm2.setPWM(1,0,600);
 		usleep(1000 * 1000);
 
     pwm1.setPWM(0,0,600);
