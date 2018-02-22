@@ -33,7 +33,7 @@ int main () {
 	}
 
 	pwm1.setPWM(0,0,0);
-	pwm2.setPWM(0,0,0);
+	pwm2.setPWM(1,0,0);
 	printf ("\n");
 
 	return 0;
