@@ -29,7 +29,11 @@ int main () {
     pwm2.setPWM(0,0,150);
 
 		usleep(1000 * 1000);
+
 	}
+
+	pwm1.setPWM(0,0,300);
+	pwm2.setPWM(0,0,300);
 	printf ("\n");
 
 	return 0;
