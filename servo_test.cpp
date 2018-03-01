@@ -25,8 +25,8 @@ int main () {
     pwm2.setPWM(1,0,600);
 		usleep(1000 * 1000);
 
-    pwm1.setPWM(0,0,300);
-    pwm2.setPWM(1,0,300);
+    pwm1.setPWM(0,0,600);
+    pwm2.setPWM(1,0,150);
 
 		usleep(2000 * 1000);
 
